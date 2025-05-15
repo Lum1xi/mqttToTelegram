@@ -15,6 +15,5 @@ async def main():
         await dp.storage.close()
         await bot.session.close()
 
-
 if __name__ == '__main__':
     asyncio.run(main())
